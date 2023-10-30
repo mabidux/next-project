@@ -1,0 +1,52 @@
+.header {
+    background-color: rgb(38, 146, 255);
+    padding: .5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 596px) {
+    .header {
+        flex-direction: column;
+    }
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.links > a {
+    position: relative;
+    font-size: 20px;
+}
+
+.links > a::after {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    transform: translate(-50%);
+    height: 1px;
+    transition: all .15s ease-in-out;
+}
+
+.links > a:hover::after {
+    width: 100%;
+}

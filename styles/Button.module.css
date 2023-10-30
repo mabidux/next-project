@@ -1,0 +1,16 @@
+.button {
+    width: 100%;
+    padding: 1ch;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background-color: rgb(80, 80, 80);
+}

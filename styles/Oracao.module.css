@@ -1,0 +1,23 @@
+.oracao {
+    margin-top: 16px;
+}
+
+.oracao > p {
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .1s ease-in-out;
+    width: min(500px, 90vw);
+    transform: translate(0, -16px);
+    z-index: 1;
+}
+
+.oracao > p[data-visible="true"] {
+    visibility: visible;
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.toggle {
+    cursor: pointer;
+}

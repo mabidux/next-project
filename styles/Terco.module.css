@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 5rem);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: min(20rem, 90vw);
+    margin: 0 auto;
+    gap: .5rem;
+}
+
+@media (max-width: 380px) {
+    .buttons {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,9 @@
+.main {
+    margin: 3rem auto;
+    width: min(90vw, 1500px);
+    text-align: justify;
+    background-color: rgb(250, 250, 250);
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
