@@ -25,6 +25,10 @@ export default function Home() {
           Além disso, você pode ver algumas passagens bíblicas relacionadas ao mistério para ajudá-lo a meditar. A função "Evangelho" mostra o Evangelho
           de hoje, para aqueles que querem ler. O Evangelho é tirado da API <Link href={'https://liturgia.up.railway.app/'} target='_blank'>https://liturgia.up.railway.app/</Link>.
         </p>
+        <h3>Veja o código!</h3>
+        <p>
+          Veja o código desse projeto no meu GitHub: <Link href={'https://github.com/mabidux/next-project'} target='_blank'>Clique aqui para ver</Link>.
+        </p>
         <div className={styles['buttons-container']}>
           <h2>USE JÁ!</h2>
           <div className={styles.buttons}>
